@@ -1,12 +1,9 @@
 
-
-
 $(document).ready(function() {
 
   var counter = 0;
   var win = 0;
   var loss = 0;
-
   var targetNumber = 55;
   $("#number-to-guess").text(targetNumber);
 
@@ -27,7 +24,7 @@ $(document).ready(function() {
     }
 
 
-    //////////////
+
 
     $(".crystal-image").on("click", function() {
 
